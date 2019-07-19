@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 const NavBar = (props) => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">            
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -15,20 +15,20 @@ const NavBar = (props) => {
                         <Link to='/releases' className="nav-link">Releases</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/backlog' className="nav-link">Backlog</Link>    
+                        <Link to='/backlog' className="nav-link">Backlog</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/sprints' className="nav-link">Sprints</Link>    
+                        <Link to='/sprints' className="nav-link">Sprints</Link>
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Dropdown
                         </a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a className="dropdown-item" href="#">Action</a>
-                            <a className="dropdown-item" href="#">Another action</a>
+                            <a className="dropdown-item" href="#">Laser</a>                            
                             <div className="dropdown-divider"></div>
-                            <a className="dropdown-item" href="#">Something else here</a>
+                            <a className="dropdown-item" href="#">Geometria Definida</a>
+                            <a className="dropdown-item" href="#">Geometria não Definida</a>
                         </div>
                     </li>
                     <li className="nav-item">

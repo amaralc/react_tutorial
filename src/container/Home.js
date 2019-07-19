@@ -32,6 +32,9 @@ class Home extends Component {
                     />
                     <HomeCard {...this.homeCardBacklog} />
                     <HomeCard {...this.homeCardSprints} />
+                    <HomeCard {...this.homeCardSprints} />
+                    <HomeCard {...this.homeCardSprints} />
+                    <HomeCard {...this.homeCardSprints} />
                 </div>
 
             </div>
