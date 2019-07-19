@@ -4,20 +4,20 @@ import HomeCard from "../ui/HomeCard"
 class Home extends Component {
   homeCardReleases = {
     title: "Releases",
-    text: " Manage Releases",
-    action: () => alert("Releases Clicked")
+    text: " Go to Releases",
+    route: "/releases"
   }
 
   homeCardBacklog = {
     title: "Backlog",
-    text: " Manage Backlog",
-    action: () => alert("Backlog Clicked")
+    text: " Go to Backlog",
+    route: "/backlog"
   }
 
   homeCardSprints = {
     title: "Sprints",
-    text: " Manage Sprints",
-    action: () => alert("Sprints Clicked")
+    text: " Go to Sprints",
+    route: "/sprints"
   }
 
   render() {
@@ -27,7 +27,7 @@ class Home extends Component {
           <HomeCard
             title={this.homeCardReleases.title}
             text={this.homeCardReleases.text}
-            action={this.homeCardReleases.action}
+            route={this.homeCardReleases.route}
           />
           <HomeCard {...this.homeCardBacklog} />
           <HomeCard {...this.homeCardSprints} />
