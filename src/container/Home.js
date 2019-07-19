@@ -4,19 +4,19 @@ import HomeCard from "../ui/HomeCard"
 class Home extends Component {
   homeCardReleases = {
     title: "Releases",
-    text: " Go to Releases",
+    text: " Manage Releases",
     route: "/releases"
   }
 
   homeCardBacklog = {
     title: "Backlog",
-    text: " Go to Backlog",
+    text: " Manage Backlog",
     route: "/backlog"
   }
 
   homeCardSprints = {
     title: "Sprints",
-    text: " Go to Sprints",
+    text: " Manage Sprints",
     route: "/sprints"
   }
 
